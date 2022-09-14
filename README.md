@@ -1,15 +1,15 @@
 # info_retrieval_db
 
-### Функция preprocess_data
+### preprocess_data
 Возвращает словарь _индекс: путь_к_файлу_эпизода_
 
-### Функция clear_text 
+### clear_text 
 Удаляет пунктуацию в тексте, приводит все слова к одному регистру, токенизирует, лемматизирует, возвращает список лемм
 
-### Функции index_data_dict и index_data_matrix
+### index_data_dict и index_data_matrix
 Возвращают словарь и матрицу с обратным индексом соответственно
 
-### Функции get_rare_word, get_freq_word, get_const_wordlist, get_main_char
+### get_rare_word, get_freq_word, get_const_wordlist*, get_main_char
 Каждая возвращает список слов и общее количество вхождений во всех текстах (кроме _get_const_wordlist_, которая возвращает список слов, присутствующих во всех текстах)
 
 **Путь к папке _friends-data_ указывается параметром в консоли**
